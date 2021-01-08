@@ -3,6 +3,9 @@ package io;
 import java.io.*;
 
 /**
+ * File、ByteArray是最基本的节点流，后面装饰器包装的都是他们两个
+ * FileInputStream和FileInoutStream用于程序和文件系统交互
+ * ByteArrayOutPutStream和In用于程序和内存交互
  * 从文件中读取图片
  * 重新写回文件
  */
